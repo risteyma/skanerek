@@ -37,7 +37,7 @@ public class Skanerek {
 	}
 
 	private static void czyOlaJestGlupia() {
-		System.out.println("Czy Ola jest g³upia? Oczywiœcie, ¿e tak");
+		System.out.println("Czy Ola jest g³upia? Oczywiœcie, ¿e nie");
 		
 	}
 
