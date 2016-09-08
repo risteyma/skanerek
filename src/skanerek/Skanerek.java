@@ -8,13 +8,15 @@ public class Skanerek {
 		double waga;
 		int planeta;
 		
+		czyOlaJestGlupia();
+
 		
 		System.out.println("Ile wazysz? ");
 		waga = klawiaturka.nextDouble();
 		System.out.println
 		("Wpisz odpowiednia liczbe,by sprawdzic ile wazysz na innej planecie: 1.Merkury 2.Wenus 3.Mars 4.Jowisz");
 		planeta = klawiaturka.nextInt();
-		
+
 		switch(planeta){
 		case 1: waga/=0.75;
 			System.out.println("Na Merkurym wazylbys: "+(Math.round(waga)));
@@ -32,6 +34,11 @@ public class Skanerek {
 			break;
 		}
 
+	}
+
+	private static void czyOlaJestGlupia() {
+		System.out.println("Czy Ola jest g³upia? Oczywiœcie, ¿e tak");
+		
 	}
 
 }
